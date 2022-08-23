@@ -1,0 +1,44 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.not-found {
+  width: 269px;
+  height: 297px;
+}
+.not-found-head {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  color: #262626;
+}
+.not-fond-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+
+  text-align: center;
+
+  color: #989898;
+}
+.button {
+  background: #4094ef;
+  border-radius: 12px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  border-width: 0px;
+  padding: 12px 32px;
+  color: #ffffff;
+}
